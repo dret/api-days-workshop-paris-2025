@@ -44,6 +44,7 @@ The following tools are either required or recommended as part of the exercises:
 - [Spectral](https://github.com/stoplightio/spectral)
 - [Spectral VSCode Extension](https://marketplace.visualstudio.com/items?itemName=stoplight.spectral)
 - [Overlay Playground](https://overlay.speakeasy.com/)
+- [Jentic AI-Readiness Scoring](https://jentic.com/scorecard)
 - [Arazzo Specification GPT](https://chatgpt.com/g/g-673339c216648190a97a5fa3d8258769-arazzo-specification)
 - [Arazzo Editor](https://arazzo-editor.symplr.io/)
 
