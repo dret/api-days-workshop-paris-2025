@@ -57,11 +57,11 @@ Given the following user story, generate an OpenAPI description to expose endpoi
 Options for generation:
 
 1. (preferred) Use an LLM assistant of choice to generate a first pass at the OpenAPI description.
-  - Leverage the provided [system-prompt](./exercise/1/openapi-creation-or-modification.md) to provide robust guidance for the LLM.
-  - Provide the user story from above or from the [user story](./exercise/1/generate-openapi-prompt.md) within exercise 1.
+  - Leverage the provided [system-prompt](./exercises/1/openapi-creation-or-modification.md) to provide robust guidance for the LLM.
+  - Provide the user story from above or from the [user story](./exercises/1/generate-openapi-prompt.md) within exercise 1.
   - Validate the the OpenAPI can render successfully in either [Swagger Editor](https://editor.swagger.io) or [Scalar Editor](https://editor.scalar.com/)
 
-2. (fallback) If you prefer to create the description manually, then take the skeleton OpenAPI from [exercise 2](./exercise/2/best-selling-skeleton.openapi.yaml) and add in the missing endpoint (with schemas for request and response under `component.schemas`).
+2. (fallback) If you prefer to create the description manually, then take the skeleton OpenAPI from [exercise 2](./exercises/2/best-selling-skeleton.openapi.yaml) and add in the missing endpoint (with schemas for request and response under `component.schemas`).
 
 
 ### Exercise 2
@@ -104,7 +104,7 @@ Sample changes:
 - Update the contact name for the API.
 - Remove the `/purchase` endpoint and related schemas as we don't want to expose that to public consumers.
 
-Take your API and pasted it into the left hand column in [Speakeasy\'s Overlay Playground](https://overlay.speakeasy.com/). Now get the [Overlay file](./exercise/5/remove-purchase-endpoint.overlay.yaml) and paste it into the Overlay column (right hand side). Review the changes in the central column.
+Take your API and pasted it into the left hand column in [Speakeasy\'s Overlay Playground](https://overlay.speakeasy.com/). Now get the [Overlay file](./exercises/5/remove-purchase-endpoint.overlay.yaml) and paste it into the Overlay column (right hand side). Review the changes in the central column.
 
 Next steps:
 - Change the endpoint `/books/best-selling` to `books/best-sellers`.
