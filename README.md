@@ -62,7 +62,7 @@ Options for generation:
   - Provide the user story from above or from the [user story](./exercises/1/generate-openapi-prompt.md) within exercise 1.
   - Validate the the OpenAPI can render successfully in either [Swagger Editor](https://editor.swagger.io) or [Scalar Editor](https://editor.scalar.com/)
 
-2. (fallback) If you prefer to create the description manually, then take the skeleton OpenAPI from [exercise 2](./exercises/2/best-selling-skeleton.openapi.yaml) and add in the missing endpoint (with schemas for request and response under `component.schemas`).
+2. (fallback) If you prefer to create the description manually, then take the [skeleton OpenAPI from exercise 2](./exercises/2/best-selling-skeleton.openapi.yaml) and add in the missing endpoint (with schemas for request and response under `component.schemas`).
 
 
 ### Exercise 2
