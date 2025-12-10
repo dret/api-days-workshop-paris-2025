@@ -57,7 +57,7 @@ Given the following user story, generate an OpenAPI description to expose endpoi
 Options for generation:
 
 1. (preferred) Use an LLM assistant of choice to generate a first pass at the OpenAPI description.
-  - Leverage the provided [system-prompt](./system-prompts/openapi-creation-or-modification.md) to provide robust guidance for the LLM.
+  - Leverage the provided [system-prompt](./exercise-1/openapi-creation-or-modification.md) to provide robust guidance for the LLM.
   - Provide the user story from above or from the [user story](./exercise-1/generate-openapi-prompt.md) within exercise 1.
   - Validate the the OpenAPI can render successfully in either [Swagger Editor](https://editor.swagger.io) or [Scalar Editor](https://editor.scalar.com/)
 
